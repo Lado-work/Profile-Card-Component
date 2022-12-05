@@ -1,0 +1,116 @@
+:root{
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@700&display=swap');
+
+body{
+    font-family: 'Kumbh sans', sans-serif;
+    color: black;    
+}
+.main{
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+.card{
+    width: 350px;
+    height: 374px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;   
+}
+.card-header{
+    background-image: url(./bg-pattern-card.svg);
+    background-size: cover;
+    height: 140px;
+}
+.img-holder{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 24px auto;   
+}
+.img-holder img{
+    width:  100%;
+    height: auto;
+    display: block;
+}
+.card-body {
+    padding: 0 20px 28px ;
+}
+ .name { 
+    margin-bottom: 13px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+ }
+ .age{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+ }
+  .city, .meta {
+    color: #6B7082;
+    opacity: .6;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+ }
+ 
+.footer{
+    border-top: 1px solid gray;
+    display: flex;
+    padding: 0px 25px;
+}
+.footer .item  {
+    flex: 1;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.bgTop{
+    width: 978px;
+    height: 976px;
+    right: 52.5%;
+    top: -40%;
+    overflow: unset;
+    position: fixed;
+   
+}
+.bgBot{
+    width: 978px;
+    height: 976px;
+    left: 49vw;
+    top: 50vh;
+    overflow: unset;
+    position: fixed;
+}
